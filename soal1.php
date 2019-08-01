@@ -4,7 +4,7 @@
     $dus = 5; // kg
     $hargadus = 2000; //perdus
 
-    $hasiljambu = ($hargaperkg*$dus)*6;
+    $hasiljambu =(6*$dus)*$hargaperkg;
     $hasildus = $hargadus*6;
     $total = $hasiljambu + $hasildus;
 
